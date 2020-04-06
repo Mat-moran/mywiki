@@ -7,6 +7,8 @@ Configuration example for $BASH$ terminal:
 2. alias config='/usr/bin/git --git-dir=$HOME/folderName/ --work-tree=$HOME' (add this alias to .bashrc)
 3. bash
 4. config config --local status.showUntrackedFiles no
+5. It is neccesary to configure the remotes if is an existing repository
+ 5.   `git remote add origin https:github.com/repositoryName`
 
 (Fish start configuration is in .config/fish/config.fish)
 
@@ -14,5 +16,6 @@ Basic usage example:
 
 1. config add /path/to/file
 2. config commit -m "A short message"
-3. config push
+2.1 If remotes are not configured, it is time to do it.
+4. config push
 
