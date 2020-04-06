@@ -1,0 +1,74 @@
+
+== Enviroment Usage ==
+
+=== Windows ===
+
+* `vsp`(vertical split), `sp`(split)
+* `Ctrl` `h`,`j`,`k`,`l` (move throw windows)
+
+=== Tabs ===
+
+=== Search ===
+
+* `?`                         (search in the document)
+*  
+* `<leader>k`                 (replace the cursor word)   
+
+=== Fold ===
+
+* `zf`                        (Fold operator --> motion follow)
+
+
+In Vim the folds need to be pointed to be able to use the next commands. Is 
+possible to save the fold status with `:mkview`
+
+* `zo`                        (unfold)
+* `zc`                        (fold)
+* `zr` | `zR`                   (fold ...)
+* `zm` | `zM`
+
+
+== Text Editor Usage ==
+
+Modes: Normal, Insert and Visual
+
+The philosopy of Vim is to work with OPERATORS and MOTIONS in normal mode, the 
+most powerfull idea behind Vim.
+
+=== Operators ===
+
+Operators let you operate in a range of text (define by motions)
+
+* `d`     (delete)
+* `y`     (yank)
+* `c`     (change --> delete then insert)
+
+* `>`     (indent rigth)
+* `<`     (indent left)
+
+=== Text Object ===
+
+Objects in the normal mode to point to.
+
+* p     (paragraph)
+* w     (word)
+* s     (sentence)
+* [ ( { <         (a [],{},<> block)
+
+=== Motions ===
+
+* dd    (delete current line)
+* dw    (delete to next word)
+* db    (delete to beginning word)
+* 2dd   (delete 2 lines) 
+* dip   (delete a text object inside a paragraph)
+
+
+
+
+
+== Tips ==
+
+* in order to see icons in the proper way it is necessary to install Nerd Fonts in the system (and the vim Plugin). If not rare objects appear.
+
+

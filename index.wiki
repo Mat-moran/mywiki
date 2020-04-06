@@ -1,0 +1,5 @@
+
+= My General Wiki =
+
+* [[VIM]] 
+* [[GitHub]]

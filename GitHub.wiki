@@ -1,0 +1,18 @@
+== Bare repositori ==
+
+Most from: https://www.youtube.com/watch?v=tBoLDpTWVOM
+
+Configuration example for $BASH$ terminal:
+1. git init --bare $HOME/folderName/
+2. alias config='/usr/bin/git --git-dir=$HOME/folderName/ --work-tree=$HOME' (add this alias to .bashrc)
+3. bash
+4. config config --local status.showUntrackedFiles no
+
+(Fish start configuration is in .config/fish/config.fish)
+
+Basic usage example:
+
+1. config add /path/to/file
+2. config commit -m "A short message"
+3. config push
+
